@@ -17,6 +17,12 @@ Its initialization instructions tell the assistant to consult them. Tool schemas
 describe their parameters, limits and counting semantics. The plugin has eleven
 bounded tools, including `run_sql` for one read-only SELECT/WITH query.
 
+Authentication happens on the first tool call. If Codex reports `401 Unauthorized`
+before showing a browser page, reconnect the plugin's MCP server and complete the
+OAuth page. In Codex CLI the recovery command is `codex mcp login al-atlas`; in the
+desktop app use the plugin's **Connect / Reconnect** action. A 401 in a session means
+that session has no access token yet; it does not mean the RNAL data is unavailable.
+
 ## Connect
 
 - **Codex:** this folder contains `.codex-plugin/plugin.json` and `.mcp.json`.
