@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "al-atlas": {
+      "type": "http",
+      "url": "https://dev.dinershtein.com/rnal-mcp/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "al-atlas",
+  "version": "1.0.0",
+  "description": "Search and analyze the collected Portugal RNAL property and company registry.",
+  "author": {
+    "name": "AL Atlas"
+  },
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "AL Atlas",
+    "shortDescription": "Portugal rental properties, companies and market statistics.",
+    "longDescription": "Read-only access to the collected mainland Portugal RNAL snapshot, source-linked company profiles and market statistics. Private workspace access requires authorization.",
+    "developerName": "AL Atlas",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Find rental operators in Cascais.",
+      "Show the largest companies by RNAL registrations.",
+      "Compare property counts in Lisbon and Porto."
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "al-atlas",
+  "interface": {
+    "displayName": "AL Atlas"
+  },
+  "plugins": [
+    {
+      "name": "al-atlas",
+      "source": {
+        "source": "local",
+        "path": "./plugins/al-atlas"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data & Analytics"
+    }
+  ]
+}
