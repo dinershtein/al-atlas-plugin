@@ -12,10 +12,8 @@ codex plugin add al-atlas@al-atlas
 Then open a new Codex chat and enable **AL Atlas**. The plugin connects to the
 remote MCP server at `https://dev.dinershtein.com/rnal-mcp/mcp`.
 
-At first connection, complete the OAuth consent page. The workspace owner enters
-the private access key there; it is never stored in this repository or plugin
-configuration. The key is on the AL Atlas server at
-`/etc/al-atlas-mcp/access-key`.
+No login, OAuth flow or access key is required. The endpoint is public and read-only;
+its SQL tool is bounded to prepared relations.
 
 ## What it can do
 

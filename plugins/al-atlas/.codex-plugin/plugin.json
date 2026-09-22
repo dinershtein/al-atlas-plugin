@@ -9,7 +9,7 @@
   "interface": {
     "displayName": "AL Atlas",
     "shortDescription": "Portugal rental properties, companies and market statistics.",
-    "longDescription": "Read-only access to the collected mainland Portugal RNAL snapshot, source-linked company profiles and market statistics. Private workspace access requires authorization.",
+    "longDescription": "Public read-only access to the collected mainland Portugal RNAL snapshot, source-linked company profiles and market statistics. No login or access key is required.",
     "developerName": "AL Atlas",
     "category": "Productivity",
     "capabilities": [
